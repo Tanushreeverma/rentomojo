@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RENTMOJO</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/signin.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+</head>
+<body>
+	<!---------------------NAVBAR--------------------------->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark " >￼
+		<button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#collapse-target">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+					
+					<a href="" class="navbar-brand pr-3 logo">	<span>RentMOJO</span></a>
+
+	<div class="collapse navbar-collapse text-dark" id="collapse-target">
+		<ul class="navbar-nav">
+			<li class="nav-item"> <a class="nav-link active" href="./index.html"><i class="fa fa-home"></i> <span class="underline--magical">Home</span></a> </li>
+		</ul>
+
+	<div class="collapse navbar-collapse" id="collapse-target">
+		<div class="navbar-nav ml-auto">
+		<div class="top-btns">
+			<div class="sign-btn">
+				<a href="#"  data-toggle="modal" data-target="#loginModal">
+					<i class="fa fa-lock text-info"></i> Sign In</a>
+				<a href="#" data-toggle="modal" data-target="#singupModal"	>
+					<i class="fa fa-user text-primary"></i> Register</a>
+			</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<!----------------------end------------------NAVBAR-------------end------------------->
+
+<div class="modal fade" role="dialog" id="loginModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header bg-dark">
+				<h3 class="modal-title align-content-center text-white p-2">LOG IN</h3>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>			
+			</div>
+			<div class="modal-body" id="form">
+					<form class="login-form forms">
+						<input name="email" type="text" placeholder="Email" required="required" />
+						<input name="password" type="password" placeholder="Password" required="required"/>
+						<button type="submit" id="login-btn">Login</button>
+						<p class="message">Not registered?
+							<a class="reg switch" href="#singupModal">Create an account</a>
+						</p>
+					</form>
+				</div>
+			</div>			
+		</div>
+	</div>
+
+
+	
+<div class="modal fade" role="dialog" id="singupModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header bg-dark">
+				<h3 class="modal-title align-content-center text-white p-2">SIGN UP</h2>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>			
+			</div>
+			<div class="modal-body" id="form">
+				<form class="register-form forms">
+					<input name="fname" type="text" placeholder="First name" required="required"/>
+					<input name="lname" type="text" placeholder="Last name" required="required"/>
+					<input name="email" type="email" placeholder="Email" required="required"/>
+					<input name="password" type="password" placeholder="Password" required="required"/>
+					<button type="submit">create</button>
+					<p class="message">Already registered?
+					<a class="log switch" href="./index.html">Sign In</a>
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!------------------------FRONT SECTION------------------------>
+<div class="container-fluid">
+<div class="container pb-cmnt-container">
+        <div class="row">
+            <div class="col">
+                <div class="panel panel-info">
+                    <div class="panel-body justify-content-center">
+                        <textarea placeholder="Write your comment here!" class="pb-cmnt-textarea border border-primary"></textarea>
+                        <form class="form-inline pb-3">
+                            <button class="btn btn-block btn-primary " type="button">Post Comment</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+<br><hr class="style13"><br>
+<div class="container-fluid pb-2">
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                        <h3 class="text-center text-primary">Comments</h3>
+                </div>
+                <div class="card-body">
+                    <div class="container">
+                        <div class="c-header"></div>
+                        <div class="c-body"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+		
+		<div class="container">
+			<p class="text-center copyright">Copyright © 2019 All rights reserved</p>
+		</div>		
+	</div>
+</div>	
+
+<!-------------end------------------------FOOTER--------------------------end------------------>
+
+
+<!-----------------------------------SCRIPTS-------------------------------------------->
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>			
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.js"></script>
+	<script src="../js/script.js"></script>
+
+</body>s
+</html>

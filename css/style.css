@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Sail');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300i&subset=latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice');
+
+
+
+body{
+	background-image: url("../images/city-2199339.jpg"); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/*----------NAVBAR------------*/
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 90px;
+	box-sizing: border-box;
+	transition: .3s;
+}
+
+nav.black{
+	background: rgba(0,0,0,0.9);
+	height: 90px;
+}
+
+nav .logo{
+	padding-top: 25px;
+	transition: .3s;
+}
+
+.navbar{
+	border-top: 5px groove #1a2930;
+}
+
+a.navbar-brand {
+	height: inherit;
+	line-height: inherit;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 3px;
+	font-family: 'Spicy Rice', cursive;
+}
+
+a.navbar-brand span {
+	font-family: 'Monoton', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	color:#00ddc1;
+}
+
+.dropdown-menu ul :hover{
+	color: white;
+	background-color:  #007bff;
+}
+  
+#log-in a i{
+	transition: all 0.5s ease;
+	background-color: #e62739;
+	cursor: pointer;
+}
+#log-in a i:hover{
+	transition: all 0.2s ease;
+	background-color: #2fa870;
+	cursor: pointer;
+	transition: background-color 0.9s ease-out;
+}
+
+
+h3{
+	font:bold 32px ;
+	padding-top: 10px;
+	color: #2c2c2c;
+}
+
+.border-bottom{
+	border:2px solid #ff3b3f;
+	width: 100%;
+}
+/*-------------------------------------FOOTER------------------------------------------*/
+
+.footer{
+	background-color:#00bf6f;
+	color:rgb(219,214, 214);
+	font-size: 14px;
+	padding: 5px;
+	border-bottom: 5px groove red;
+}
+.footer a{
+	color:rgb(219, 214, 214);
+}
+.social i:hover{
+	transition: all 0.5s ease;
+	background: linear-gradient(180deg, rgba(119,193,124,1) 0%, rgba(21,188,210,1) 77%, rgba(21,188,210,1) 100%);
+	transition: background-color 2s ease-out;
+}
+
+.copyright{
+	color:gray;
+}
+	  
+	  .sign-btn a {
+		border: 2px solid #ffff;
+		display: inline-block;
+		border: 2px solid #ffff;
+		padding: 0.5em 2.5em;
+		margin-right: 0.5em;
+		color: #fff;
+		letter-spacing: 1px;
+		font-size: 0.8em;
+ 	   	background-color: #212631;
+    	font-weight: 600;
+   		text-transform: uppercase;
+		transition: 0.2s opacity;
+		text-decoration: none;	
+	  }
+	  .sign-btn a:hover{
+		transition: background-color 1s all;
+		border: #000;
+		color: #000;
+		transition: background-color 1s ease-out;
+	  }
+
+
+.underline--magical {
+    background-image: linear-gradient(120deg, #ff533d 0%, #4484ce 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+	transition: background-size 0.25s ease-in;			
+  }
+  .underline--magical:hover {
+    background-size: 100% 88%;
+	clip-path: polygon(0 24%, 7% 9%, 92% 9%, 100% 25%, 100% 80%, 50% 100%, 0% 80%);
+	padding: 5px;
+}  
+
+.underline-magical {
+	background-image: linear-gradient(120deg, #012172  0%, #f67280 50%, #00cdac 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+	transition: background-size 0.25s ease-in;	
+	font-family: 'Anton', sans-serif;
+}
+  .underline-magical:hover {
+    background-size: 100% 88%;
+	padding: 3px;
+	cursor: pointer;
+}  
+
+.pb-cmnt-container {
+	font-family: Lato;
+	margin-top: 100px;
+}
+
+.pb-cmnt-textarea {
+	resize: none;
+	padding: 20px;
+	height: 130px;
+	width: 100%;
+	align-self: center;
+	border: 1px solid #F2F2F2;
+}
+
+
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
